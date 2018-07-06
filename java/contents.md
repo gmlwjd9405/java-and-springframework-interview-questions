@@ -32,11 +32,16 @@
 > - [https://gmlwjd9405.github.io/2018/07/05/oop-features.html](https://gmlwjd9405.github.io/2018/07/05/oop-features.html)
 
 #### OOP의 5대 원칙 (SOLID)
-* **S**: 단일 책임 원칙
-* **O**: 개방-폐쇄 원칙
-* **L**: 리스코프 치환 원칙
-* **I**: 의존 역전 원칙
-* **D**: 인터페이스 분리 원칙
+* **S**: 단일 책임 원칙(SRP, Single Responsibility Principle)
+  * 객체는 단 하나의 책임만 가져야 한다.
+* **O**: 개방-폐쇄 원칙(OCP, Open Closed Principle)
+  * 기존의 코드를 변경하지 않으면서 기능을 추가할 수 있도록 설계가 되어야 한다.
+* **L**: 리스코프 치환 원칙(LSP, Liskov Substitution Principle)
+  * 일반화 관계에 대한 이야기며, 자식 클래스는 최소한 자신의 부모 클래스에서 가능한 행위는 수행할 수 있어야 한다.
+* **I**: 의존 역전 원칙(DIP, Dependency Inversion Principle)
+  * 의존 관계를 맺을 때 변화하기 쉬운 것 또는 자주 변화하는 것보다는 변화하기 어려운 것, 거의 변화가 없는 것에 의존하라는 것이다.
+* **D**: 인터페이스 분리 원칙(ISP, Interface Segregation Principle)
+  * 인터페이스를 클라이언트에 특화되도록 분리시키라는 설계 원칙이다.
 > - [https://gmlwjd9405.github.io/2018/07/05/oop-solid.html](https://gmlwjd9405.github.io/2018/07/05/oop-solid.html)
 
 #### 객체지향 프로그래밍과 절차지향 프로그래밍의 차이
