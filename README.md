@@ -23,7 +23,8 @@
 * OOP의 4가지 특징
 * OOP의 5대 원칙 (SOLID)
 * 객체지향 프로그래밍과 절차지향 프로그래밍의 차이
-* java의 Static
+* java의 non-static 멤버와 static 멤버의 차이
+* java의 final
 * java의 제네릭(Generic)
 * java의 가비지 컬렉션(Garbage Collection)
 * 객체(Object)란 무엇인가
