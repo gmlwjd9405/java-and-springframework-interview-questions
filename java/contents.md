@@ -4,9 +4,9 @@
 # 1. Java
 ## <span style="color:#7E1107">이론</span>
 
-#### java 프로그래밍 이란
+#### :small_orange_diamond:java 프로그래밍 이란
 
-#### java와 c/c++의 차이점
+#### :small_orange_diamond:java와 c/c++의 차이점
 - java와 c/c++의 가장 큰 차이점은 실행 환경이다.
 - java에서의 개발: 컴파일 혹은 컴파일 + jar압축
   - 자바는 링크 과정이 없이 컴파일러가 바로 바이트 코드를 생성
@@ -14,14 +14,14 @@
 
 > - []()
 
-#### java언어의 장단점
+#### :small_orange_diamond:java언어의 장단점
 > - []()
 
-#### java의 접근 제어자의 종류와 특징
+#### :small_orange_diamond:java의 접근 제어자의 종류와 특징
 ![](/images/access-controller.png)
 
 
-#### OOP의 4가지 특징
+#### :small_orange_diamond:OOP의 4가지 특징
 1. 추상화
 * 구체적인 사물들의 공통적인 특징을 파악해서 이를 하나의 개념(집합)으로 다루는 것
 2. 캡슐화
@@ -30,9 +30,10 @@
 * 여러 개체들이 가진 공통된 특성을 부각시켜 하나의 개념이나 법칙으로 성립시키는 과정
 4. 다형성
 * 서로 다른 클래스의 객체가 같은 메시지를 받았을 때 각자의 방식으로 동작하는 능력
+
 > - [https://gmlwjd9405.github.io/2018/07/05/oop-features.html](https://gmlwjd9405.github.io/2018/07/05/oop-features.html)
 
-#### OOP의 5대 원칙 (SOLID)
+#### :small_orange_diamond:OOP의 5대 원칙 (SOLID)
 * **S**: 단일 책임 원칙(SRP, Single Responsibility Principle)
   * 객체는 단 하나의 책임만 가져야 한다.
 * **O**: 개방-폐쇄 원칙(OCP, Open Closed Principle)
@@ -43,11 +44,12 @@
   * 의존 관계를 맺을 때 변화하기 쉬운 것 또는 자주 변화하는 것보다는 변화하기 어려운 것, 거의 변화가 없는 것에 의존하라는 것이다.
 * **D**: 인터페이스 분리 원칙(ISP, Interface Segregation Principle)
   * 인터페이스를 클라이언트에 특화되도록 분리시키라는 설계 원칙이다.
+
 > - [https://gmlwjd9405.github.io/2018/07/05/oop-solid.html](https://gmlwjd9405.github.io/2018/07/05/oop-solid.html)
 
-#### 객체지향 프로그래밍과 절차지향 프로그래밍의 차이
+#### :small_orange_diamond:객체지향 프로그래밍과 절차지향 프로그래밍의 차이
 
-#### java의 non-static 멤버와 static 멤버의 차이
+#### :small_orange_diamond:java의 non-static 멤버와 static 멤버의 차이
 non-static 멤버
 * 공간적 특성: **멤버는 객체마다 별도로 존재한다.**
   * ***인스턴스 멤버*** 라고 부른다.
@@ -58,7 +60,6 @@ non-static 멤버
 * 공유의 특성: **공유되지 않는다.**
   * 멤버는 객체 내에 각각의 공간을 유지한다.
 
-<br>
 static 멤버
 * 공간적 특성: **멤버는 클래스당 하나가 생성된다.**
   * 멤버는 객체 내부가 아닌 별도의 공간에 생성된다.
@@ -69,9 +70,10 @@ static 멤버
   * 객체가 사라져도 멤버는 사라지지 않는다.
   * 멤버는 프로그램이 종료될 때 사라진다.
 * 공유의 특성: **동일한 클래스의 모든 객체들에 의해 공유된다.**
+
 > - [https://gmlwjd9405.github.io/2018/08/04/java-static.html](https://gmlwjd9405.github.io/2018/08/04/java-static.html)
 
-#### java의 final 키워드
+#### :small_orange_diamond:java의 final 키워드
 final 키워드
 * 개념: 변수나 메서드 또는 클래스가 '변경 불가능'하도록 만든다.
 * 원시(Primitive) 변수에 적용 시
@@ -95,25 +97,26 @@ finalize() 메서드
 * 개념: 쓰레기 수집기(GC, Garbage Collector)가 더 이상의 참조가 존재하지 않는 객체를 메모리에서 삭제하겠다고 결정하는 순간 호출된다.
 * Object 클래스의 finalize() 메서드를 오버라이드해서 맞춤별 GC를 정의할 수 있다.
   * `protected void finalize() throws Throwable { // 파일 닫기, 자원 반환 등등 }`
+
 > - [https://gmlwjd9405.github.io/2018/08/06/java-final.html](https://gmlwjd9405.github.io/2018/08/06/java-final.html)
 
-#### java의 제네릭(Generic)
+#### :small_orange_diamond:java의 제네릭(Generic)
 
-#### java의 가비지 컬렉션(Garbage Collection)
+#### :small_orange_diamond:java의 가비지 컬렉션(Garbage Collection)
 
-#### 객체(Object)란 무엇인가
+#### :small_orange_diamond:객체(Object)란 무엇인가
 
-#### 객체 직렬화(Serialization)와 역직렬화(Deserialization)란 무엇인가
+#### :small_orange_diamond:객체 직렬화(Serialization)와 역직렬화(Deserialization)란 무엇인가
 
-#### 클래스와 인스턴스의 차이(Class vs Instance)
+#### :small_orange_diamond:클래스와 인스턴스의 차이(Class vs Instance)
 
-#### 오버로딩과 오버라이딩의 차이(Overloading vs Overriding)
+#### :small_orange_diamond:오버로딩과 오버라이딩의 차이(Overloading vs Overriding)
 
-#### Call by Reference와 Call by Value의 차이
+#### :small_orange_diamond:Call by Reference와 Call by Value의 차이
 
-#### 인터페이스와 추상 클래스의 차이(Interface vs Abstract Class)
+#### :small_orange_diamond:인터페이스와 추상 클래스의 차이(Interface vs Abstract Class)
 
-#### 프로세스와 스레드의 차이(Process vs Thread)
+#### :small_orange_diamond:프로세스와 스레드의 차이(Process vs Thread)
 
 <!-- ## 세션과 쿠키의 차이(Session vs Cookie) -->
 

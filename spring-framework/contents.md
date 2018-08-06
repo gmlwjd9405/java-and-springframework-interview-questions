@@ -4,14 +4,14 @@
 # 2. Spring Framework
 ## <span style="color:#7E1107">이론</span>
 
-#### 스프링이란?
+#### :small_orange_diamond:스프링이란?
 > - []()
 
-#### DI(Dependency Injection)란?
+#### :small_orange_diamond:DI(Dependency Injection)란?
 
-#### AOP(Aspect Oriented Programming)란?
+#### :small_orange_diamond:AOP(Aspect Oriented Programming)란?
 
-#### Spring JDBC를 이용한 데이터 접근
+#### :small_orange_diamond:Spring JDBC를 이용한 데이터 접근
 
 
 

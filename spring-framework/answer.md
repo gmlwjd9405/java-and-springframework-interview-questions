@@ -4,10 +4,10 @@
 # 2. Spring Framework
 ## <span style="color:#205416">관련 질문들</span>
 
-#### Q1. DI(Dependency Injection)이란 무엇인가
+#### :small_blue_diamond:Q1. DI(Dependency Injection)이란 무엇인가
 A.
 
-#### Q2. Connection Pooling은 무엇인가
+#### :small_blue_diamond:Q2. Connection Pooling은 무엇인가
 A.
 
 
