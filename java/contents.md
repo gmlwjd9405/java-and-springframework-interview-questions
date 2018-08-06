@@ -71,7 +71,31 @@ static 멤버
 * 공유의 특성: **동일한 클래스의 모든 객체들에 의해 공유된다.**
 > - [https://gmlwjd9405.github.io/2018/08/04/java-static.html](https://gmlwjd9405.github.io/2018/08/04/java-static.html)
 
-#### java의 final
+#### java의 final 키워드
+final 키워드
+* 개념: 변수나 메서드 또는 클래스가 '변경 불가능'하도록 만든다.
+* 원시(Primitive) 변수에 적용 시
+  * 해당 변수의 값은 변경이 불가능하다.
+* 참조(Reference) 변수에 적용 시
+  * 참조 변수가 힙(heap) 내의 다른 객체를 가리키도록 변경할 수 없다.
+* 메서드에 적용 시
+  * 해당 메서드를 오버라이드할 수 없다.
+* 클래스에 적용 시
+  * 해당 클래스의 하위 클래스를 정의할 수 없다.
+
+finally 키워드
+* 개념: try/catch 블록이 종료될 때 항상 실행될 코드 블록을 정의하기 위해 사용한다.
+* finally는 선택적으로 try 혹은 catch 블록 뒤에 정의할 때 사용한다.
+* finally 블록은 예외가 발생하더라도 항상 실행된다.
+  * 단, JVM이 try 블록 실행 중에 종료되는 경우는 제외한다.
+* finally 블록은 종종 뒴마무리 코드를 작성하는 데 사용된다.
+* finally 블록은 try와 catch 블록 다음과, 통제권이 이전으로 다시 돌아가기 전 사이에 실행된다.
+
+finalize() 메서드
+* 개념: 쓰레기 수집기(GC, Garbage Collector)가 더 이상의 참조가 존재하지 않는 객체를 메모리에서 삭제하겠다고 결정하는 순간 호출된다.
+* Object 클래스의 finalize() 메서드를 오버라이드해서 맞춤별 GC를 정의할 수 있다.
+  * `protected void finalize() throws Throwable { // 파일 닫기, 자원 반환 등등 }`
+> - [https://gmlwjd9405.github.io/2018/08/06/java-final.html](https://gmlwjd9405.github.io/2018/08/06/java-final.html)
 
 #### java의 제네릭(Generic)
 
