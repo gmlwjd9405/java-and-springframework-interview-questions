@@ -4,10 +4,10 @@
 # 1. Java
 ## <span style="color:#205416">관련 질문들</span>
 
-#### :small_blue_diamond:Q1. 객체 직렬화(Serialization)와 역직렬화(Deserialization)란 무엇인가
+#### :small_blue_diamond:Q1. java의 제네릭(Generic)과 c++의 템플릿(Template)의 차이
 A.
 
-#### :small_blue_diamond:Q2. 객체(Object)란 무엇인가
+#### :small_blue_diamond:Q2. 
 A.
 
 

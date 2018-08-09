@@ -43,7 +43,7 @@
 <!-- ## 동기화와 비동기화의 차이(Syncronous vs Asyncronous) -->
 
 ### 관련 질문들 :arrow_forward: [답변 보러가기!](/java/answer.md)
-* Q1.
+* Q1. java의 제네릭(Generic)과 c++의 템플릿(Template)의 차이
 * Q2.
 
 

@@ -111,6 +111,34 @@ finalize() 메서드
 #### :small_orange_diamond:클래스와 인스턴스의 차이(Class vs Instance)
 
 #### :small_orange_diamond:오버로딩과 오버라이딩의 차이(Overloading vs Overriding)
+* 오버로딩(Overloading)
+  * 두 메서드가 같은 이름을 갖고 있으나 인자의 수나 자료형이 다른 경우
+  * Ex)
+    * `public double computeArea(Circle c) { ... }`
+    * `public double computeArea(Circle c1, Circle c2) { ... }`
+    * `public double computeArea(Square c) { ... }`
+* 오버라이딩(Overriding)
+  * 상위 클래스의 메서드와 이름과 용례(signature)가 같은 함수를 하위 클래스에 재정의하는 것
+  * 상속 관계에 있는 클래스 간에 같은 이름의 메서드를 정의
+  * Ex) Circle에서 printMe() 메서드를 재정의한다.
+~~~java
+public abstract class Shape {
+    public void printMe() { System.out.println("Shape"); }
+    public abstract double computeArea();
+}
+public class Circle extends Shape {
+    private double rad = 5;
+    @Override // 개발자의 실수를 방지하기 위해 @Override(annotation) 쓰는 것을 권장
+    public void printMe() { System.out.println("Circle"); }
+    public double computeArea() { return rad * rad * 3.15; }
+}
+public class Ambiguous extends Shape {
+    private double area = 10;
+    public double computeArea() { return area; }
+}
+~~~
+> - [https://gmlwjd9405.github.io/2018/08/09/java-overloading-vs-overriding.html](https://gmlwjd9405.github.io/2018/08/09/java-overloading-vs-overriding.html)
+
 
 #### :small_orange_diamond:Call by Reference와 Call by Value의 차이
 
