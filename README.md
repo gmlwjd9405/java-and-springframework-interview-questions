@@ -51,6 +51,7 @@
 ## 2. Spring Framework
 ### 이론 :arrow_forward: [내용 보러가기!](/spring-framework/contents.md)
 * 스프링이란?
+* MVC 패턴이란?
 * DI(Dependency Injection)란?
 * AOP(Aspect Oriented Programming)란?
 * Spring JDBC를 이용한 데이터 접근

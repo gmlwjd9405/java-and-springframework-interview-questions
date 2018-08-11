@@ -7,6 +7,9 @@
 #### :small_orange_diamond:스프링이란?
 > - []()
 
+#### :small_orange_diamond:MVC 패턴이란?
+
+
 #### :small_orange_diamond:DI(Dependency Injection)란?
 
 #### :small_orange_diamond:AOP(Aspect Oriented Programming)란?
