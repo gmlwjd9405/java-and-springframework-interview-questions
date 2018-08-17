@@ -11,13 +11,13 @@
 * OOP의 5대 원칙 (SOLID)
 * 객체지향 프로그래밍과 절차지향 프로그래밍의 차이
 * java의 non-static 멤버와 static 멤버의 차이
-* [java의 final 키워드](#java의-final-키워드)
+* [java의 final 키워드
 * java의 제네릭(Generic)
 * java의 가비지 컬렉션(Garbage Collection)
 * 객체(Object)란 무엇인가
 * 객체 직렬화(Serialization)와 역직렬화(Deserialization)란 무엇인가
 * 클래스와 인스턴스의 차이(Class vs Instance)
-* [오버로딩과 오버라이딩의 차이(Overloading vs Overriding)](#Overloading-vs-Overriding)
+* 오버로딩과 오버라이딩의 차이(Overloading vs Overriding)
 * Call by Reference와 Call by Value의 차이
 * 인터페이스와 추상 클래스의 차이(Interface vs Abstract Class)
 * 프로세스와 스레드의 차이(Process vs Thread)
@@ -38,7 +38,7 @@
 > - []()
 
 #### :small_orange_diamond:java의 접근 제어자의 종류와 특징
-![](/images/access-controller.png)
+![](/images/access-controller.png){: width="600" height="200"}
 
 
 #### :small_orange_diamond:OOP의 4가지 특징
@@ -130,7 +130,8 @@ finalize() 메서드
 
 #### :small_orange_diamond:클래스와 인스턴스의 차이(Class vs Instance)
 
-#### :small_orange_diamond:오버로딩과 오버라이딩의 차이(Overloading vs Overriding) [](#){name=Overloading-vs-Overriding}
+#### :small_orange_diamond:오버로딩과 오버라이딩의 차이(Overloading vs Overriding)
+<!-- [](#){name=Overloading-vs-Overriding} -->
 * 오버로딩(Overloading)
   * 두 메서드가 같은 이름을 갖고 있으나 인자의 수나 자료형이 다른 경우
   * Ex)
@@ -174,11 +175,11 @@ public class Ambiguous extends Shape {
 
 <!-- ## 동기화와 비동기화의 차이(Syncronous vs Asyncronous) -->
 
-
+---
 
 ## Main Reference Materials
 > - [명품 Java Programming](https://www.booksr.co.kr/html/book/book.asp?seq=696811)
 > - [inflearn 실전 자바 강좌](https://www.inflearn.com/course/%EC%8B%A4%EC%A0%84-%EC%9E%90%EB%B0%94-%EA%B0%95%EC%A2%8C/)
 
----
+
 ## :house: [Home](https://github.com/gmlwjd9405/java-and-springframework-interview-questions)

@@ -7,12 +7,13 @@
 #### :small_blue_diamond:Q1. java의 제네릭(Generic)과 c++의 템플릿(Template)의 차이
 A.
 
-#### :small_blue_diamond:Q2. 
+#### :small_blue_diamond:Q2.
 A.
 
 
+---
 ## Main Reference Materials
 > - []()
 
----
+
 ## :house: [Home](https://github.com/gmlwjd9405/java-and-springframework-interview-questions)
